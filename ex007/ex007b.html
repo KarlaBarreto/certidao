@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Nascimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>República Federativa Do Brasil <br>
+         Registro Civil Das Pessoas Naturais</p>
+        
+    </header>
+    <p class="title">Certidão de Nascimento</p>    
+    <main>
+        <form action="resgistro.php" method="post">
+        <fieldset>
+            <legend>CPF</legend>
+            <input type="text" name="" id="icpf" minlength="11" max="11" required>
+        </fieldset>
+        <h3>MATRÍCULA</h3>
+        <p>000000.00.00.0000.0.00000.000.0000000-00</p>
+        <div class="cdata">
+            <div id="ddata">
+                <fieldset>
+                    <legend>DATA DE NASCIMENTO ESCRITA</legend>
+                    <input type="text" name="" id="idata" required>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>DIA - MÊS - ANO</legend>
+                    <input type="date" name="" id="idia" required>
+                </fieldset>
+            </div>
+        </div>
+        <fieldset>
+            <legend>NASCIONALIDADE</legend>
+            <select name="" id="inasc" required>
+            <option value="">Afeganistão</option>
+            <option value="">África do Sul</option>
+            <option value="">Albânia</option>
+            <option value="">Alemanha</option>
+            <option value="">Angola</option>
+            <option value="">Arábia Saudita</option>
+            <option value="">Argentina</option>
+            <option value="">Austrália</option>
+            <option value="">Áustria</option>
+            <option value="">Bahamas</option>
+            <option value="">Bélgica</option>
+            <option value="">Bolívia</option>
+            <option value="">Bósnia e Herzegovina</option>
+            <option value="bra" selected>Brasil</option>
+            <option value="">Brunei</option>
+            <option value="">Camarões</option>
+            <option value="">Canadá</option>
+            <option value="">Catar</option>
+            <option value="">Chile</option>
+            <option value="">China</option>
+            <option value="">Colômbia</option>
+            <option value="">Coreia do Norte</option>
+            <option value="">Coreia do Sul</option>
+            <option value="">Costa Rica</option>
+            <option value="">Croácia</option>
+            <option value="">Cuba</option>
+            <option value="">Dinamarca</option>
+            <option value="">Egito</option>
+            <option value="">Emirados Árabes Unidos</option>
+            <option value="">Equador</option>
+            <option value="">Espanha</option>
+            <option value="">Estados Unidos</option>
+            <option value="">Etiópia</option>
+            <option value="">Finlândia</option>
+            <option value="">França</option>
+            <option value="">Gana</option>
+            <option value="">Grécia</option>
+            <option value="">Guatemala</option>
+            <option value="">Guiné-Bissau</option>
+            <option value="">Haiti</option>
+            <option value="">Honduras</option>
+            <option value="">Iémen</option>
+            <option value="">Índia</option>
+            <option value="">Iraque</option>
+            <option value="">Itália</option>
+            <option value="">Jamaica</option>
+            <option value="">Japão</option>
+            <option value="">Letónia</option>
+            <option value="">Líbano</option>
+            <option value="">Líbia</option>
+            <option value="">Madagáscar</option>
+            <option value="">Maldivas</option>
+            <option value="">Marrocos</option>
+            <option value="">México</option>
+            <option value="">Moçambique</option>
+            <option value="">Nicarágua</option>
+            <option value="">Nigéria</option>
+            <option value="">Noruega</option>
+            <option value="">Nova Zelândia</option>
+            <option value="">Países Baixos</option>
+            <option value="">Panamá</option>
+            <option value="">Paquistão</option>
+            <option value="">Paraguai</option>
+            <option value="">Peru</option>
+            <option value="">Portugal</option>
+            <option value="">Quénia</option>
+            <option value="">Reino Unido</option>
+            <option value="">República Checa</option>
+            <option value="">República Dominicana</option>
+            <option value="">Roménia</option>
+            <option value="">Rússia</option>
+            <option value="">Salvador</option>
+            <option value="">São Tomé e Príncipe</option>
+            <option value="">Senegal</option>
+            <option value="">Sérvia</option>
+            <option value="">Síria</option>
+            <option value="">Suécia</option>
+            <option value="">Suíça</option>
+            <option value="">Tailândia</option>
+            <option value="">Tanzânia</option>
+            <option value="">Timor-Leste</option>
+            <option value="">Turquia</option>
+            <option value="">Ucrânia</option>
+            <option value="">Uruguai</option>
+            <option value="">Vaticano</option>
+            <option value="">Venezuela</option>
+            <option value="">Zimbábue</option>
+        </select>
+        </fieldset>
+        <div id="resultado">
+
+        </div>
+        <div id="bloco2">
+            <div class="cest">
+                <fieldset>
+                    <legend>ESTADO</legend>
+                    <select name="" id="iest">
+                        <option value="ac">ACRE</option>
+                        <option value="al">ALAGOAS</option>
+                        <option value="ap">AMAPÁ</option>
+                        <option value="am">AMAZONAS</option>
+                        <option value="ba">BAHIA</option>
+                        <option value="ce">CEARÁ</option>
+                        <option value="df">DISTRITO FEDERAL</option>
+                        <option value="es">ESPÍRITO SANTO</option>
+                        <option value="go">GOÍAS</option>
+                        <option value="ma">MARANHÃO</option>
+                        <option value="mt">MATO GROSSO</option>
+                        <option value="ms">MATO GROSSO DO SUL</option>
+                        <option value="mg">MINAS GERAIS</option>
+                        <option value="pa">PARÁ</option>
+                        <option value="pb">PARAÍBA</option>
+                        <option value="pr">PARANÁ</option>
+                        <option value="pe">PERNAMBUCO</option>
+                        <option value="pi">PIAUÍ</option>
+                        <option value="rj">RIO DE JANEIRO</option>
+                        <option value="rn">RIO GRANDE DO NORTE</option>
+                        <option value="rs">RIO GRANDE DO SUL</option>
+                        <option value="ro">RONDÔNIA</option>
+                        <option value="rr">RORAIMA</option>
+                        <option value="sc">SANTA CATARINA</option>
+                        <option value="sp">SÃO PAULO</option>
+                        <option value="se">SERGIPE</option>
+                        <option value="to">TOCANTINS</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="ccid">
+                <fieldset>
+                    <legend>CIDADE</legend>
+                    <input type="text" name="" id="icid" required minlength="3">
+                </fieldset>
+            </div>
+            <div class="csex">
+                <fieldset>
+                    <legend>SEXO</legend>
+                    <select name="" id="isex">
+                        <option value="m">MASCULINO</option>
+                        <option value="f">FEMININO</option>
+                        <option value="ne">NÃO ESPECIFICADO</option>
+                    </select>
+                </fieldset>
+            </div>
+        </div>
+        <fieldset class="cfil">
+            <legend>FILIAÇÃO</legend>
+            <input type="text" name="" id="ifil" required>
+            <input type="text" name="" id="ifil" required>
+        </fieldset>  
+        <fieldset class="cav">
+            <legend>AVÓS</legend>
+            <input type="text" name="" id="iav" required>
+            <input type="text" name="" id="iav" required>
+        </fieldset>  
+        </form>
+    </main>
+    <script src="conf.js"></script>
+</body>
+</html>
